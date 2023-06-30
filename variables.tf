@@ -26,6 +26,12 @@ variable "kind" {
   default     = "StorageV2"
 }
 
+variable "is_hns_enabled" {
+  description = "Required to enable Azure Data Lake Storage Gen 2"
+  type        = bool
+  default     = true
+}
+
 variable "tags" {
   description = "The tags to append to this resource"
   default     = {}

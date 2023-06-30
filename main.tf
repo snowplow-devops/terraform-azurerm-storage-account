@@ -12,5 +12,7 @@ resource "azurerm_storage_account" "storage_account" {
   enable_https_traffic_only = true
   min_tls_version           = "TLS1_2"
 
+  is_hns_enabled = var.is_hns_enabled
+
   tags = var.tags
 }
