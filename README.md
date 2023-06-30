@@ -47,6 +47,7 @@ No modules.
 |------|-------------|------|---------|:--------:|
 | <a name="input_name"></a> [name](#input\_name) | Name of the storage account | `string` | n/a | yes |
 | <a name="input_resource_group_name"></a> [resource\_group\_name](#input\_resource\_group\_name) | Name of resource group to deploy the account into | `string` | n/a | yes |
+| <a name="input_is_hns_enabled"></a> [is\_hns\_enabled](#input\_is\_hns\_enabled) | Required to enable Azure Data Lake Storage Gen 2 | `bool` | `true` | no |
 | <a name="input_kind"></a> [kind](#input\_kind) | Storage account Kind | `string` | `"StorageV2"` | no |
 | <a name="input_replication_type"></a> [replication\_type](#input\_replication\_type) | Replication type for storage account | `string` | `"ZRS"` | no |
 | <a name="input_sku"></a> [sku](#input\_sku) | SKU Tier for storage account | `string` | `"Standard"` | no |
