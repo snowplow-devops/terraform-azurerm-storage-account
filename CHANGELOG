@@ -1,3 +1,7 @@
+Version 0.1.3 (2025-01-03)
+--------------------------
+Update to use https_traffic_only_enabled
+
 Version 0.1.2 (2023-07-21)
 --------------------------
 Update to Snowplow Community Licence (#5)
